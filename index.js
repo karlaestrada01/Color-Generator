@@ -1,4 +1,3 @@
-const box = document.querySelector(".box")
 
 const colorOne = document.getElementById("color-one")
 const colorTwo = document.getElementById("color-two")
@@ -43,15 +42,9 @@ document.getElementById("color-form").addEventListener("submit", (e) => {
         if(currentEvent === "color-one-p" || (currentEvent === "color-two-p") ||
         (currentEvent === "color-three-p") || (currentEvent === "color-four-p") || currentEvent === "color-five-p"){
             navigator.clipboard.writeText(document.getElementById(currentEvent).textContent)
-            console.log(document.getElementById(event.target.id).textContent)
         }
-        else {
-            console.log("loser")
-        }
+      
         
     })
 
 }) 
-
-
-//add default color to #5C1414
