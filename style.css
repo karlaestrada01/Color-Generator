@@ -46,11 +46,14 @@ body {
 #type-input {
     padding: 6px 8px;
     width: 40%;
+    color: black;
 }
 .scheme-btn {
     padding: 6px 8px;
     width: 40%;
     cursor: pointer;
+    background-color: white;
+    color: black;
    
 }
 .scheme-btn:hover, .scheme-btn:focus {
